@@ -32,10 +32,10 @@ CREDITS
 
 Developed by: WestonGFX
 
-Art assets and sound design: [Placeholder for full release]
+Art assets and sound design: [WestonGFX + placeholder for more credits]
 
 Special thanks to the roguelike community for inspiration.
 
 ===========================================================
-For bug reports and feedback, please contact: support@peperogue.com
+For bug reports and feedback, please contact: westongfx@gmail.com
 ===========================================================
