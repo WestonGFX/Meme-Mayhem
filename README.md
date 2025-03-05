@@ -107,3 +107,101 @@ This project can be built using various languages and engines. Here are 6 differ
    _Pros:_ Beginner-friendly, rapid prototyping.  
    _Cons:_ Performance may suffer, requires Python on target machines.  
    _Best Use Case:_ For initial prototypes and indie projects.
+
+---
+
+## DEVELOPMENT NOTES
+
+This is a prototype version of Pepe's Rogue Emote Adventure. The current build includes:
+
+- Basic gameplay mechanics (movement, shooting, dodging)
+- Procedural dungeon generation
+- Enemy AI and boss battles
+- Item and weapon system
+- Meme Fusion system
+- Basic UI elements
+
+Future development will focus on:
+- Additional content (enemies, items, weapons, rooms)
+- Enhanced visual effects and animations
+- Full controller support
+- Sound design and music
+- Additional game modes
+- Meta-progression system
+- Achievements
+
+---
+
+## KNOWN ISSUES
+
+- Some weapon synergies may not function properly
+- Occasional glitches in room generation
+- Performance may decrease with large numbers of projectiles
+- Controller mapping might require adjustment on certain devices
+
+---
+
+## CREDITS
+
+Developed by: WestonGFX
+
+Art assets and sound design: [Placeholder for full release]
+
+Special thanks to the roguelike community for inspiration.
+
+---
+
+## How to Install and Run the Prototype
+
+1. **Requirements**:
+   - Unity 2021.3 LTS or newer
+   - Basic knowledge of Unity editor
+
+2. **Setting Up the Project**:
+   - Create a new 2D project in Unity
+   - Create the following folders in your Assets directory:
+     - Scripts
+     - Prefabs
+     - Scenes
+     - Sprites
+     - Audio
+   - Copy all the scripts provided above into the Scripts folder
+   - Create a new scene called "Main"
+
+3. **Creating Basic GameObjects**:
+   - Create an empty GameObject named "GameInitializer" and attach the GameInitializer script
+   - Create an empty GameObject named "GameManager" and attach the GameManager script
+   - Create an empty GameObject named "DungeonGenerator" and attach the DungeonGenerator script
+   - Create an empty GameObject named "RoomGenerator" and attach the RoomGenerator script
+   - Create an empty GameObject named "EmoteFusionSystem" and attach the EmoteFusionSystem script
+   - Create an empty GameObject named "WeaponSynergyManager" and attach the WeaponSynergyManager script
+
+4. **Creating Basic Prefabs**:
+   - Create a simple player character sprite and attach the PlayerController script
+   - Create basic enemy sprites and attach the EnemyController script
+   - Create simple weapon sprites and attach the appropriate weapon scripts
+   - Create basic item sprites and attach the ItemBase derivatives
+   - Create basic tile sprites for floor, walls, and doors
+
+5. **Setting Up References**:
+   - In the GameInitializer object, assign the prefab references
+   - In the GameManager object, assign UI references and the player prefab
+   - In the DungeonGenerator object, assign the RoomGenerator reference
+   - In the RoomGenerator object, assign the tile, enemy, boss, and item prefabs
+
+6. **Running the Game**:
+   - Save the scene
+   - Press Play in the Unity Editor
+   - The game should initialize with a main menu
+   - Press "Start Game" to begin a new run
+
+This prototype implementation provides the basic framework for Pepe's Rogue Emote Adventure. The core systems are in place, but would need additional content and polish for a full release. This prototype demonstrates the key mechanics described in the game design document:
+
+1. Player movement and combat
+2. Procedural dungeon generation
+3. Enemy AI with different behaviors
+4. Boss battles with phases
+5. Item and weapon systems with synergies
+6. Meme Fusion system for combining abilities
+
+For a complete game, you would need to expand content in all areas (more enemies, items, rooms, etc.), add visual and audio assets, and refine the gameplay balance.
